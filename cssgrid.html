@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        . {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100vw;
+            background-color: rgb(242, 239, 245);
+            padding: 10px;
+            marging: 0px;
+            display: grid;
+            justify-content: center;
+            align-items: baseline;
+            height: 100vh;
+            
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 0px;
+
+        }
+
+        .item {
+            background-color: brown;
+            color: aliceblue;
+            font-size: 35px;
+            padding: 20px;
+            margin: 0px;
+            flex-direction: row;
+            height: 400px;
+            margin-top: 150px;
+            width: 250px;
+
+
+        }
+
+        .items-1 {
+            border-bottom-left-radius: 20px;
+            border-top-left-radius: 20px;
+            margin-left: 400px;
+        }
+
+        .items-3 {
+            border-bottom-right-radius: 20px;
+            border-top-right-radius: 20px;
+             margin-right: 350px;
+        }
+        .items-2 {
+            border-bottom-right-radius: 0px;
+            border-top-right-radius: 0px;
+             margin-right: 0px;
+        }
+
+
+        h4 {
+            font-family: sans-serif;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        submit {
+            font-size: 16px;
+            border: 1px solid;
+            background-color: aliceblue border-radius:20px;
+            width: 10px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="items-1 item" style="background-color:rgba(240, 143, 32, 0.822);">
+            <h4 style>SEDANS</h4>
+            <p>
+                Choose a sedan for its <br>
+                affordability and exellent<br>
+                fuel economy. Ideal for<br>
+                cruising in the city or on<br>
+                your next road trip.
+            </p>
+            <submit> learn More</submit>
+        </div>
+        <div class="items-2 item" style="background-color:rgb(35, 96, 104);">
+            <h4>SUVS</h4>
+            <p>
+                Take an SUV for its spacious<br>
+                interior, power, and <br>
+                versatility. Perfect for your <br>
+                next family vacation and <br>
+                off-road adventures.
+            </p>
+            <submit> learn More</submit>
+        </div>
+        <div class="items-3 item" style="background-color:rgb(31, 68, 71);">
+            <h4>LUXURY</h4>
+            <p>
+                Cruise in the best car brands<br>
+                without the bloated prices.<br>
+                Enjoying the enhanced comfort<br>
+                of a luxury rental and arrive<br>
+                in style.
+            </p>
+            <submit> learn More</submit>
+        </div>
+    </div>
+</body>
+
+</html>
